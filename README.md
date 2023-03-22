@@ -1,17 +1,22 @@
 # csv-to-json-nodejs-postgres
 - CSV to JSON convertor API with headers having nested object
 
+# Install the node modules
+- npm i
+
 # Requried:
 Node v8.16.0 or higher
 
 # API invocation
-GET http://localhost:8080/api/convert
-GET http://localhost:8080/
+- GET http://localhost:8080/api/convert
+- GET http://localhost:8080/
 
 # API output object
-"result" - It will return the list of json objects converted from given CSV file.
-"report" - It will return the distribution of age groups from the available data.
 
+- "result" - It will return the list of json objects converted from given CSV file.
+- "report" - It will return the distribution of age groups from the available data.
+
+```
 {
     "result": [
         {
@@ -45,3 +50,4 @@ GET http://localhost:8080/
         ]
     }
 }
+```
